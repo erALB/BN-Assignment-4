@@ -1,0 +1,42 @@
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: azure;
+}
+
+img {
+  width: 150px;
+  border: 5px solid black;
+  margin: 20px;
+  transition: 0.7s;
+  background-color: white;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scores {
+  display: flex;
+  gap: 75px;
+}
+
+#play {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #ffffff;
+  padding: 10px 0;
+  transition: 0.7s;
+  width: 380px;
+}
+
+#play:hover, img:hover {
+  background-color: #dbdbdb;
+  cursor: default;
+} 
